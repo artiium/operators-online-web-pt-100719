@@ -4,7 +4,7 @@ if speed > 60
   return true
 elsif speed < 40
   return true
-else 40 > speed < 60
+else speed.between?(40, 60)
   retun false
 end
 end
