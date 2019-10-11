@@ -5,7 +5,7 @@ if speed > 60
 elsif speed < 40
   return true
 else 40 > speed < 60
-  retun false
+  return false
 end
 end
 
